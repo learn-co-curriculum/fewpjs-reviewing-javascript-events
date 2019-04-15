@@ -40,7 +40,10 @@ function2()
 
 ?: What are examples of JavaScript events?
 
-[X] Submitting a form [X] Pressing a key [X] Scrolling in the browser window [ ] Clicking the browser’s “back” button
+[X] Submitting a form
+[X] Pressing a key
+[X] Scrolling in the browser window
+[ ] Clicking the browser’s “back” button
 
 ?: Which keyword should not be used in order to avoid potential issues from hoisting?
 
@@ -48,7 +51,10 @@ function2()
 
 ?: A function is an object that:
 
-[X] contains a sequence JavaScript statements. [X] can be executed multiple times. [ ] contains a variable. [ ] is always executed first.
+[X] contains a sequence JavaScript statements.
+[X] can be executed multiple times.
+[ ] contains a variable.
+[ ] is always executed first.
 
 ?: How would you best generalize this function using parameters and arguments?
 

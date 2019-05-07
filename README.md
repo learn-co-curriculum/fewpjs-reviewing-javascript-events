@@ -1,70 +1,72 @@
-## Quiz: Reviewing JavaScript Events
+# Quiz: Reviewing JavaScript Events
 
 ???
 
-# Reviewing JavaScript Events
+## Reviewing JavaScript Events
 
 ?: How is scope defined?
 
-(X) where declared variables and functions are visible ( ) with `const` variables ( ) only in the global context ( ) only within the function block
+( ) with `const` variables ( ) only in the global context ( ) only within the function block (X) where declared variables and functions are visible
 
-?: Variables declared with ___ are block-scoped:
+?: Variables declared with \_\_\_ are block-scoped:
 
-(X) `let` ( ) `var` ( ) `function`
+( ) `var` (X) `let` ( ) `function`
 
 ?: Through the scope chain, a function:
 
 (X) has access to all variables and functions declared in its outer scope. ( ) has access to all variables and functions declared only in its inner scope. ( ) has access to all variables and functions declared in its inner and outer scopes. ( ) continues to move up the scope chain when it finds a matching identifier in the current scope.
 
-?: In the code example here, what will `myVar` equal when `function2()` is run?
+?: In the code example here, what will `myVar` equal after `function2()` is run?
 
 ```javascript
-const myVar = 'Foo';
-function function1 () {
-  const myVar = 'Baz'
+const myVar = "Foo";
+function function1() {
+  const myVar = "Baz";
   console.log(myVar);
-
 }
-function function2 () {
-  const myVar = 'Bar';
+function function2() {
+  const myVar = "Bar";
   function1();
 }
-function2()
-````
+function2();
+```
 
-(X) Baz ( ) Foo ( ) Bar ( ) undefined
+(X) "Baz" ( ) "Foo" ( ) "Bar" ( ) undefined
 
 ?: How can an JavaScript event be defined on any DOM node?
 
 (X) `addEventListener()` ( ) `getElementById()` ( ) `querySelector()` ( ) `click()`
 
-?: What are examples of JavaScript events?
+?: Which of these is NOT an example of a JavaScript event?
 
-[X] Submitting a form
-[X] Pressing a key
-[X] Scrolling in the browser window
-[ ] Clicking the browser’s “back” button
+( ) Submitting a form
+(X) Calling a javascript function in the global scope
+( ) Pressing a key
+( ) Scrolling in the browser window
 
-?: Which keyword should not be used in order to avoid potential issues from hoisting?
+?: Which variable keyword will be hoisted?
 
-(X) `var` ( ) `let` ( ) `const` ( ) `function`
+( ) `let` ( ) `const` ( ) `def` (X) `var`
 
-?: A function is an object that:
+?: Which of the following is NOT true about functions?
 
-[X] contains a sequence JavaScript statements.
-[X] can be executed multiple times.
-[ ] contains a variable.
-[ ] is always executed first.
+( ) functions contain a sequence JavaScript statements.
+( ) functions can be executed multiple times.
+(X) functions are always executed first.
+( ) functions are objects.
 
-?: How would you best generalize this function using parameters and arguments?
+?: Choose the version of this function that is the best example of generalization:
 
 (X)
+
 ```javascript
-function volunteerTShirtOrder(name=”Unknown”, size=”Any”) {
+function volunteerTShirtOrder(name = "Unknown", size = "Any") {
   console.log(`${name} ordered a size ${size}`);
 }
 ```
+
 ( )
+
 ```javascript
 function volunteerTShirtOrder(name, size) {
   let name = "Octavius";
@@ -72,13 +74,17 @@ function volunteerTShirtOrder(name, size) {
   console.log(`${name} ordered a size ${size}`);
 }
 ```
+
 ( )
+
 ```javascript
-function volunteerTShirtOrder(name, size) {
-  console.log(`${name} ordered a size ${size}`);
+function volunteerTShirtOrder(x, y) {
+  console.log(`${x} ordered a size ${y}`);
 }
 ```
+
 ( )
+
 ```javascript
 function volunteerTShirtOrder(name, size) {
   let name = "Unknown";
@@ -89,6 +95,6 @@ function volunteerTShirtOrder(name, size) {
 
 ?: The `DOMContentLoaded` event fires at when:
 
-(X) your page's DOM is fully parsed. ( ) the CSS & JavaScript have finished loading. ( ) the page has begun loading. ( ) there is an error during the page load.
+( ) the CSS & JavaScript have finished loading. (X) the page's DOM is fully parsed. ( ) the page has begun loading. ( ) there is an error during the page load.
 
 ???

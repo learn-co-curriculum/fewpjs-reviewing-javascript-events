@@ -4,9 +4,9 @@
 
 ## Reviewing JavaScript Events
 
-?: How is scope defined?
+?: Choose the best definition of scope in JavaScript.
 
-( ) with `const` variables ( ) only in the global context ( ) only within the function block (X) where declared variables and functions are visible
+( ) the functions that the browser 'knows about' by default ( ) variables and functions get 'hoisted' to the top ( ) the value of the variables defined inside a function (X) where declared variables and functions are visible
 
 ?: Variables declared with \_\_\_ are block-scoped:
 
@@ -14,9 +14,9 @@
 
 ?: Through the scope chain, a function:
 
-(X) has access to all variables and functions declared in its outer scope. ( ) has access to all variables and functions declared only in its inner scope. ( ) has access to all variables and functions declared in its inner and outer scopes. ( ) continues to move up the scope chain when it finds a matching identifier in the current scope.
+(X) has access to all variables and functions declared in its enclosing scope. ( ) has access to all variables and functions declared only in its inner scope. ( ) has access to variables and functions declared anywhere. ( ) continues to move up the scope chain when it finds a matching identifier in the current scope.
 
-?: In the code example here, what will `myVar` equal after `function2()` is run?
+?: In the code example below, what will `myVar` equal when `function2()` is run? That is, what will be logged?
 
 ```javascript
 const myVar = "Foo";
@@ -55,7 +55,7 @@ function2();
 (X) functions are always executed first.
 ( ) functions are objects.
 
-?: Choose the version of this function that is the best example of generalization:
+?: Choose the version of this function that is the best example of generalization.
 
 (X)
 
@@ -93,7 +93,7 @@ function volunteerTShirtOrder(name, size) {
 }
 ```
 
-?: The `DOMContentLoaded` event fires at when:
+?: The `DOMContentLoaded` event fires when:
 
 ( ) the CSS & JavaScript have finished loading. (X) the page's DOM is fully parsed. ( ) the page has begun loading. ( ) there is an error during the page load.
 

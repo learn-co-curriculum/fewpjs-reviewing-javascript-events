@@ -12,7 +12,7 @@
 
 ( ) `var` (X) `let` ( ) `function`
 
-?: Through the scope chain, a function:
+?: Through its scope, a function:
 
 (X) has access to all variables and functions declared in its enclosing scope. ( ) has access to all variables and functions declared only in its inner scope. ( ) has access to variables and functions declared anywhere. ( ) continues to move up the scope chain when it finds a matching identifier in the current scope.
 

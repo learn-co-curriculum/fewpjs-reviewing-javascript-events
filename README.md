@@ -33,7 +33,7 @@ function2();
 
 (X) "Baz" ( ) "Foo" ( ) "Bar" ( ) undefined
 
-?: How can an JavaScript event be defined on any DOM node?
+?: How can a JavaScript event be defined on any DOM node?
 
 (X) `addEventListener()` ( ) `getElementById()` ( ) `querySelector()` ( ) `click()`
 
@@ -50,7 +50,7 @@ function2();
 
 ?: Which of the following is NOT true about functions?
 
-( ) functions contain a sequence JavaScript statements.
+( ) functions contain a sequence of JavaScript statements.
 ( ) functions can be executed multiple times.
 (X) functions are always executed first.
 ( ) functions are objects.
